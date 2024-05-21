@@ -26,7 +26,7 @@
             $sudahAda = false;
             $checkSQL = "SELECT * FROM karyawan WHERE nik = '$nik'";
             $resultCheck = mysqli_query($connection, $checkSQL);    
-            if (mysqli_num_rows($resulCheck) > 0) {
+            if (mysqli_num_rows($resultCheck) > 0) {
                 $sudahAda = true;
             }
 
