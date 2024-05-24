@@ -84,7 +84,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="gaji_pokok" class="form-label">Gaji Pokok</label>
-                    <input type="number" class="form-control" id="gaji_pokok" name="gaji_pokok" placeholder="misal : 0001" required>
+                    <input type="number" class="form-control" id="gaji_pokok" name="gaji_pokok" placeholder="misal : 3000000" required>
                 </div>
                 <label class="form-label">Status Karyawan</label>
                 <div class="mb-3">
